@@ -47,4 +47,9 @@ public class StepDefinitions {
         System.out.println("I Like the "+int1+" Animal from the above list");
     }
 
+    @Given("Today is sunday")
+    public void today_is_sunday() {
+        System.out.println("Yes Today is sunday");
+    }
+
 }
