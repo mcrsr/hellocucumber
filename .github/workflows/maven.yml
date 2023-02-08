@@ -27,5 +27,11 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+    
+    - name: Set up Chrome
+      uses: actions/setup-chromium@v1
+      with:
+        chromium-version: stable
+        
     - name: Build with Maven
       run: mvn clean install
