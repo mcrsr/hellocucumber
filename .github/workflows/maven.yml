@@ -29,7 +29,6 @@ jobs:
         cache: maven
     
     - name: Set up Chrome
-      uses: actions/setup-chromium@v1
       with:
         chromium-version: stable
         
