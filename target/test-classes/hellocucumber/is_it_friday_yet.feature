@@ -18,3 +18,6 @@ Feature: Is it Friday yet?
       |Dog|
       |Cow|
       Then I like the 2 nd anila from the above list
+
+      Scenario: Is to day Sunday
+        Given Today is sunday
